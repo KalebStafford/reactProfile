@@ -1,0 +1,71 @@
+.footer {
+  background-color: lightslategrey;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0px 0px 16px -8px black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.facebook {
+  height: 6vh;
+  width: 6vh;
+}
+
+.facebook:hover {
+  background-color: lightgray;
+}
+
+.instagram {
+  height: 6vh;
+  width: 6vh;
+}
+
+.instagram:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.twitter {
+  height: 6vh;
+  width: 6vh;
+}
+
+.twitter:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.linkedin {
+  height: 6vh;
+  width: 6vh;
+}
+
+.linkedin:hover {
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+.gmailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmailContainer span {
+  margin-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.gmail {
+  height: 6vh;
+  width: 6vh;
+}
+
+.gmail:hover {
+  background-color: lightgray;
+  border-radius: 4px;
+}
